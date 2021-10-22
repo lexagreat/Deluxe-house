@@ -84,28 +84,28 @@ $(document).ready(function () {
 
 // Slider
 
-// new Swiper('.image-slider', {
-//    //Стрелки
-//    navigation: {
-//       nextEl: '.swiper-button-next', // Назначение класса
-//       prevEl: '.swiper-button-prev', // Назначение класса
-//    },
-//    pagination: {
-//       el: '.swiper-pagination', // Назначение класса
-//       type: 'bullets', // Значение по умолчанию
-//       clickable: true,
-//    },
-//    slideToClickedSlide: true,
-//    keyboard: {
-//       enabled: true,
-//       onlyInViewport: true, // Св-ва по умолчанию
-//       pageUpDown: true,
-//    },
-//    autohigh: true, // Высота сладера подстраивается под высоту картинок
-//    slidesPerView: 1, // Кол-во слайдов для показа
-//    watchOverflow: true, // Вкл/Выкл функционала, если слайдеров меньше, чем нужно
-//    spaceBetween: 30,
-//    centeredSlides: true, // Активный слайд по центру
-//    loop: true, // Бесконечный режим
-//    speed: 400, // Скорость
-// });
+new Swiper('.image-slider', {
+   //Стрелки
+   navigation: {
+      nextEl: '.swiper-button-next', // Назначение класса
+      prevEl: '.swiper-button-prev', // Назначение класса
+   },
+   pagination: {
+      el: '.swiper-pagination', // Назначение класса
+      type: 'bullets', // Значение по умолчанию
+      clickable: true,
+   },
+   slideToClickedSlide: true,
+   keyboard: {
+      enabled: true,
+      onlyInViewport: true, // Св-ва по умолчанию
+      pageUpDown: true,
+   },
+   autohigh: true, // Высота сладера подстраивается под высоту картинок
+   slidesPerView: 1, // Кол-во слайдов для показа
+   watchOverflow: true, // Вкл/Выкл функционала, если слайдеров меньше, чем нужно
+   spaceBetween: 30,
+   centeredSlides: true, // Активный слайд по центру
+   loop: true, // Бесконечный режим
+   speed: 400, // Скорость
+});

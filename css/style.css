@@ -3570,6 +3570,7 @@ h6 {
     background: linear-gradient(to right, #191919, #191919);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    display: none;
   }
 
   .header-main {
